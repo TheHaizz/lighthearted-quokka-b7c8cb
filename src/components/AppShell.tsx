@@ -34,7 +34,7 @@ const NAV = [
   { href: "/admin", label: "Админ-меню", icon: KeyRound },
 ];
 
-const SERVER_IP = "play.lologrief.fun";
+const SERVER_IP = "pictures-documents.gl.joinmc.link";
 
 export function AppShell({ children }: { children: ReactNode }) {
   const pathname = usePathname();
