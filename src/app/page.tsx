@@ -51,7 +51,7 @@ const QUICK_RULES = [
 ];
 
 const TICKER =
-  "LoloGrief · Tablet OS 2.6.1 · play.lologrief.fun · Раздача каждую неделю · Набор в модераторы открыт · ";
+  "LoloGrief · Tablet OS 2.6.1 · pictures-documents.gl.joinmc.link · Раздача каждую неделю · Набор в модераторы открыт · ";
 
 export default function HomePage() {
   const { user } = useSession();
@@ -68,7 +68,7 @@ export default function HomePage() {
 
   const copyIp = async () => {
     try {
-      await navigator.clipboard.writeText("play.lologrief.fun");
+      await navigator.clipboard.writeText("pictures-documents.gl.joinmc.link");
       setCopied(true);
       setTimeout(() => setCopied(false), 1600);
     } catch {
@@ -116,7 +116,7 @@ export default function HomePage() {
             <div className="mt-6 flex flex-wrap items-center gap-3">
               <button onClick={copyIp} className="btn btn-primary">
                 {copied ? <Check className="size-4" /> : <Copy className="size-4" />}
-                {copied ? "IP скопирован" : "play.lologrief.fun"}
+                {copied ? "IP скопирован" : "pictures-documents.gl.joinmc.link"}
               </button>
               {!user && (
                 <Link href="/register" className="btn btn-ghost">
@@ -165,7 +165,7 @@ export default function HomePage() {
               <p className="text-green-400">✓ ядро Tablet OS загружено</p>
               <p className="text-green-400">✓ модуль форума активен</p>
               <p className="text-green-400">✓ тикет-система v2 онлайн</p>
-              <p className="text-honey">→ players: {stats?.players ?? "…"} online</p>
+              <p className="text-honey">→ создано Boar345345 @cewux</p>
               <p className="text-honey">→ giveaways: {stats?.giveaways ?? "…"} active</p>
               <p className="text-zinc-500">
                 $ <span className="anim-blink text-honey">▍</span>
