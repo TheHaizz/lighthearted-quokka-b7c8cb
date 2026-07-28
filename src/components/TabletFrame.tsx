@@ -6,7 +6,7 @@ import { AppShell } from "./AppShell";
 
 const BOOT_LINES = [
   "Инициализация ядра планшета…",
-  "Подключение к play.lologrief.fun…",
+  "Подключение к lologrief…",
   "Загрузка модулей LoloForum…",
   "Синхронизация базы игроков…",
   "Готово. Добро пожаловать!",
@@ -133,7 +133,7 @@ export function TabletFrame({ children }: { children: ReactNode }) {
                     </div>
                   </div>
                   <p className="relative font-mono text-[10px] tracking-wider text-zinc-600">
-                    v2.6.1 · сборка 2026 · play.lologrief.fun
+                    v2.6.1 · сборка 2026 · pictures-documents.gl.joinmc.link
                   </p>
                 </button>
               )}
